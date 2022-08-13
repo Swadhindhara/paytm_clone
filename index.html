@@ -17,6 +17,8 @@
                         blue: '#120E43',
                         myblack: '#0D0D0D',
                         sky: '#12B0E8',
+                        bcg_blue: '#2827CC',
+                        background: '#CAD5E2',
                     }
                 }
             }
@@ -24,8 +26,8 @@
     </script>
 </head>
 
-<body>
-    <header class=" flex p-4 dark:bg-gray-800 dark:text-gray-100 ">
+<body class="bg-gray-100">
+    <header class=" flex bg-white h-20">
         <button class="p-4 lg:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                 class="w-6 h-6 dark:text-gray-100">
@@ -67,13 +69,14 @@
         </div>
     </header>
     <div class="flex justify-center items-center flex-end bg-gray-100 h-12 text-base taxt-black-900">
-        <span class="font-semibold ml-0 lg:ml-0">No Wallet KYC Required </span><span class="text-2xl">😊</span> to pay
-        using UPI on
-        Paytm.<span class="font-semibold">Learn more.</span>
+        <span class="font-semibold ml-0 lg:ml-0 text-center"> <b>No Wallet KYC Required</b> <span
+                class="text-2xl">😊</span> to pay
+            using UPI on
+            Paytm.<span class="font-semibold"><b>Learn more.</b></span></span>
     </div>
     <!-- hero section -->
-    <section class="dark:bg-gray-800 dark:text-gray-100">
-        <div class="container flex flex-col justify-center p-6 sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
+    <section class="bg-white h-screen">
+        <div class="container flex flex-col justify-center sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
             <div class="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
                 <img class="w-16 m-auto lg:ml-4" src="./assets/photo.png" alt="">
                 <span class="font-bold text-black-900 sm:text-5xl text-4xl">India's Most-loved <br>Payments App</span>
@@ -86,20 +89,21 @@
                     <img class="w-4 ml-4" src="./assets/google-play.svg" alt="">
                 </span>
             </div>
-            <div class="flex items-center justify-between p-6 mt-8  h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
-                <img class="lg:max-w-2xl mt-40 lg:mt-56 pl-16 "
+            <div class="flex items-center justify-between mt-8  h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+                <img class="lg:max-w-xl mt-40 "
                     src="https://assetscdn1.paytm.com/images/catalog/view_item/850762/1656568118664.png" alt="">
             </div>
         </div>
     </section>
 
-    <section class="bg-sky lg:h-96 mt-48  lg:justify-center lg:items-center  ">
+    <section class="bg-sky lg:h-96 mt-48 sm:mt-0 lg:justify-center lg:items-center  ">
         <div class="flex justify-center sm:justify-start items-center flex-wrap ">
-            <span class=" text-white font-semibold text-3xl mb-8 sm:text-4xl sm:mx-24 mt-12 ">Recharge & Pay Bills on
+            <span class=" text-white font-semibold text-center text-3xl mb-8 sm:text-4xl sm:mx-24 mt-12 ">Recharge & Pay
+                Bills on
                 Paytm.</span>
         </div>
         <!-- cards -->
-        <div class="flex justify-center items-start sm:items-center flex-wrap text-xl">
+        <div class="flex justify-center items-start  items-center sm:flex-row flex-wrap text-xl">
             <div class="w-40 h-48 p-4 mr-8 rounded-lg hover:bg-bcg hover:cursor-pointer ">
                 <img class="w-14 mb-4" src="./assets/recharge.png" alt="">
                 <p class="text-white font-semibold">Recharge<br>Prepaid<br>Mobile ></p>
@@ -136,6 +140,137 @@
                 <p class="text-white font-semibold">
                     All <br> Payment <br>Services >
                 </p>
+            </div>
+        </div>
+    </section>
+    <section class="bg-bcg_blue lg:h-80 lg:justify-center lg:items-center  ">
+        <div class="flex justify-center sm:justify-start items-center flex-wrap ">
+            <span class=" text-white font-semibold text-center text-3xl mb-8 sm:text-4xl sm:mx-24 mt-12 ">Book & Buy on
+                Paytm.</span>
+        </div>
+        <!-- cards -->
+        <div class="flex justify-center items-start items-center sm:flex-row flex-wrap text-xl">
+            <div class="w-40 h-40 p-4 mr-8 rounded-lg hover:bg-blue hover:cursor-pointer ">
+                <img class="w-14 mb-4" src="./assets/movie.png" alt="">
+                <p class="text-white font-semibold">Movie<br>Tickets ></p>
+            </div>
+            <div class="w-40 h-40 p-4 mr-8 rounded-lg hover:bg-blue hover:cursor-pointer ">
+                <img class="w-14 mb-4" src="./assets/flight.png" alt="">
+                <p class="text-white font-semibold">Flight<br>Tickets ></p>
+            </div>
+            <div class="w-40 h-40 p-4 mr-8 rounded-lg hover:bg-blue hover:cursor-pointer ">
+                <img class="w-14 mb-4" src="./assets/bus.png" alt="">
+                <p class="text-white font-semibold">Bus<br>Tickets ></p>
+            </div>
+            <div class="w-40 h-40 p-4 mr-8 rounded-lg hover:bg-blue hover:cursor-pointer ">
+                <img class="w-14 mb-4" src="./assets/train.png" alt="">
+                <p class="text-white font-semibold">Train<br>Tickets ></p>
+            </div>
+            <div class="w-40 h-40 p-4 mr-8 rounded-lg hover:bg-blue hover:cursor-pointer ">
+                <img class="w-14 mb-4" src="./assets/car&bike.png" alt="">
+                <p class="text-white font-semibold">Car &<br>Bikes ></p>
+            </div>
+            <div class="w-40 h-40 p-4 mr-8 rounded-lg hover:bg-blue hover:cursor-pointer ">
+                <img class="w-14 mb-4" src="./assets/international_flight.png" alt="">
+                <p class="text-white font-semibold">international<br>Flights ></p>
+            </div>
+            <div class="w-40 h-40 p-4 mr-8 rounded-lg hover:bg-blue hover:cursor-pointer ">
+                <img class="w-14 mb-4" src="./assets/invest.webp" alt="">
+                <p class="text-white font-semibold">Invest<br>in Stocks ></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="">
+        <div>
+            <h1 class=" font-bold text-5xl text-center sm:text-left sm:ml-32 mt-36 mb-12" >Paytm Payment Instruments</h1>
+        </div>
+        <div class="w-5/6 bg-white m-auto flex justify-around rounded-xl flex-col sm:flex-row items-center ">
+            <div class="flex flex-col items-center sm:items-start sm:ml-24">
+                <div class="flex sm:mt-3 mt-32 ">
+                    <img class=" w-24 h-24" src="./assets/wallet.png" alt="">
+                    <div>
+                        <h3 class=" font-semibold ml-4 mt-4 text-lg">Paytm <br>Wallet</h3>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h1 class=" font-bold text-4xl mt-12 sm:text-left text-center">The Fastest Way to <br> Pay In-store & Online.</h1>
+                    </div>
+                    <div>
+                        <p class=" mt-12 font-semibold text-lg sm:text-left text-center" >Load up your Paytm Wallet for free and make payments <br> in a jiffy at over 21 million
+                            stores, websites and apps.</p>
+                    </div>
+                    <span
+                        class="flex m-auto lg:ml-0 mt-8 p-2 border-solid border-2 hover:border-myblack w-64 rounded-full text-white bg-black hover:bg-white hover:text-black justify-center">
+                        <a class="ml-2" href="#">Download Paytm App</a>
+                        <img class="w-4 ml-4" src="./assets/apple-logo.svg" alt="">
+                        <img class="w-4 ml-4" src="./assets/google-play.svg" alt="">
+                    </span>
+                </div>
+            </div>
+            <div>
+                <img class="sm:max-w-xl mt-20 mb-16" src="./assets/mobile_wallet.webp" alt="">
+            </div>
+        </div>
+    </section>
+
+     <section class=" mt-16">
+        
+        <div class="w-5/6 bg-white m-auto flex justify-around rounded-xl flex-col sm:flex-row items-center ">
+            <div class="flex flex-col items-center sm:items-start sm:ml-24">
+                <div class="flex sm:mt-3 mt-32 ">
+                    <img class=" w-20 h-20" src="./assets/upi.png" alt="">
+                    <div>
+                        <h3 class=" font-semibold ml-4 mt-4 text-lg">UPI Money<br>Transfer</h3>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h1 class=" font-bold text-4xl mt-12 sm:text-left text-center">Pay anyone directly <br> from your bank <br> account.</h1>
+                    </div>
+                    <div>
+                        <p class=" mt-12 font-semibold text-lg sm:text-left text-center" >Pay anyone, everywhere. Make contactless & secure <br> payments in-stores or online using Paytm Wallet or <br> Directly from your Bank Account. Plus, send & receive <br> money from anyone.</p>
+                    </div>
+                    <span
+                        class="flex m-auto lg:ml-0 mt-8 p-2 border-solid border-2 hover:border-myblack w-64 rounded-full text-white bg-black hover:bg-white hover:text-black justify-center">
+                        <a class="ml-2" href="#">Download Paytm App</a>
+                        <img class="w-4 ml-4" src="./assets/apple-logo.svg" alt="">
+                        <img class="w-4 ml-4" src="./assets/google-play.svg" alt="">
+                    </span>
+                </div>
+            </div>
+            <div>
+                <img class="sm:max-w-xl mt-20 mb-16" src="./assets/share.webp" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class=" mt-16">
+        
+        <div class="w-5/6 bg-white m-auto flex justify-around rounded-xl flex-col sm:flex-row items-center ">
+            <div class="flex flex-col items-center sm:items-start sm:ml-24">
+                <div class="flex sm:mt-3 mt-32 ">
+                    <img class="h-20" src="./assets/paytm_postpaid.webp" alt="">
+                </div>
+                <div>
+                    <div>
+                        <h1 class=" font-bold text-4xl mt-12 sm:text-left text-center">Want it? <br>
+                            No more waiting for it.</h1>
+                    </div>
+                    <div>
+                        <p class=" mt-12 font-semibold text-lg sm:text-left text-center" >With Paytm Postpaid, your wishlist doesn't have to be <br> on the waitlist. Shop for the things you want today and <br> pay for them next month.</p>
+                    </div>
+                    <span
+                        class="flex m-auto lg:ml-0 mt-8 p-4 hover:border-myblack w-44 rounded-full text-white bg-bcg_blue hover:bg-sky hover:text-white justify-center">
+                        <a class="ml-2" href="#">Learn More  ></a>
+                    </span>
+                </div>
+            </div>
+            <div>
+                <img class="sm:max-w-lg mt-20 mb-16" src="./assets/fashion.webp" alt="">
             </div>
         </div>
     </section>
