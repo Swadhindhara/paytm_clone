@@ -12,7 +12,10 @@
 </span>
 
 ## How website looks like
-<img src =" "/>
+<video width="320" height="240" controls>
+  <source src="https://github.com/Swadhindhara/paytm_clone/blob/main/final_output.mp4">
+</video>
+
 
 ## What I have learned in this project?
 - I have learned how to use tailwind css
