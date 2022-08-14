@@ -12,7 +12,7 @@
 </span>
 
 ## How website looks like
-<vedio src ="https://github.com/Swadhindhara/paytm_clone/blob/main/final_output.png "/>
+<img src ="https://github.com/Swadhindhara/paytm_clone/blob/main/final_output.png "/>
 
 
 ## What I have learned in this project?
