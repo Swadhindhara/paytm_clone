@@ -12,8 +12,7 @@
 </span>
 
 ## How website looks like
-<video width="320" height="240" src="https://github.com/Swadhindhara/paytm_clone/blob/main/final_output.mp4" controls> 
-</video>
+<vedio src ="https://github.com/Swadhindhara/paytm_clone/blob/main/final_output.png "/>
 
 
 ## What I have learned in this project?
